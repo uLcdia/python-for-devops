@@ -13,3 +13,7 @@ def get_server_status(server_name):
 server_name = 'server2'
 status = get_server_status(server_name)
 print(f"{server_name} status: {status}")
+
+"""
+server2 status: inactive
+"""

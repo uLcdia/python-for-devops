@@ -10,3 +10,9 @@ print("Sum:", sum_result)
 print("Difference:", difference_result)
 print("Product:", product_result)
 print("Quotient:", quotient_result)
+"""
+Sum: 15
+Difference: 5
+Product: 50
+Quotient: 2.0
+"""

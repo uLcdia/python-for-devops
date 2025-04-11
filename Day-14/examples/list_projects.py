@@ -26,3 +26,10 @@ output = json.loads(response.text)
 name = output[0]["name"]
 
 print(name)
+"""
+Traceback (most recent call last):
+  File "/home/nenya/source/python-for-devops/./Day-14/examples/list_projects.py", line 26, in <module>
+    name = output[0]["name"]
+           ~~~~~~^^^
+KeyError: 0
+"""

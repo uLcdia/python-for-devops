@@ -23,3 +23,14 @@ new_value = '600'  # New maximum connections allowed
 
 # Update the server configuration file
 update_server_config(server_config_file, key_to_update, new_value)
+
+"""
+Traceback (most recent call last):
+  File "/home/nenya/source/python-for-devops/./Day-12/update_server.py", line 25, in <module>
+    update_server_config(server_config_file, key_to_update, new_value)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nenya/source/python-for-devops/./Day-12/update_server.py", line 3, in update_server_config
+    with open(file_path, 'r') as file:
+         ~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'server.conf'
+"""

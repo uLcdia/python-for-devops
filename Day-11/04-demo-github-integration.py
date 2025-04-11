@@ -31,3 +31,27 @@ if response.status_code == 200:
         print(f"{creator}: {count} PR(s)")
 else:
     print(f"Failed to fetch data. Status code: {response.status_code}")
+
+"""
+PR Creators and Counts:
+ndbaker1: 1 PR(s)
+MaysaMacedo: 1 PR(s)
+pohly: 2 PR(s)
+fasaxc: 1 PR(s)
+danwinship: 1 PR(s)
+zhifei92: 1 PR(s)
+jsafrane: 3 PR(s)
+Rajalakshmi-Girish: 1 PR(s)
+Olexandr88: 1 PR(s)
+carlory: 5 PR(s)
+ntnn: 4 PR(s)
+skitt: 1 PR(s)
+lukasmetzner: 1 PR(s)
+tosi3k: 1 PR(s)
+BenTheElder: 1 PR(s)
+dongjiang1989: 1 PR(s)
+mortent: 1 PR(s)
+xuzhenglun: 1 PR(s)
+halfcrazy: 1 PR(s)
+hshiina: 1 PR(s)
+"""

@@ -6,3 +6,7 @@ total *= 2
 total /= 4
 
 print("Final total:", total)
+
+"""
+Final total: 6.0
+"""

@@ -10,3 +10,10 @@ print("x and y:", and_result)
 print("x or y:", or_result)
 print("not x:", not_result_x)
 print("not y:", not_result_y)
+
+"""
+x and y: False
+x or y: True
+not x: False
+not y: True
+"""

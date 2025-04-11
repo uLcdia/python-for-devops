@@ -63,3 +63,9 @@ def createJira():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+"""
+Traceback (most recent call last):
+  File "/home/nenya/source/python-for-devops/./Day-15/github-jira.py", line 6, in <module>
+    from flask import Flask
+ModuleNotFoundError: No module named 'flask'
+"""

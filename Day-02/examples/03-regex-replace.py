@@ -7,3 +7,7 @@ replacement = "red"
 
 new_text = re.sub(pattern, replacement, text)
 print("Modified text:", new_text)
+
+"""
+Modified text: The quick red fox jumps over the lazy red dog
+"""

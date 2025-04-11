@@ -14,3 +14,12 @@ print("a <= b:", less_than_or_equal)
 print("a >= b:", greater_than_or_equal)
 print("a == b:", equal)
 print("a != b:", not_equal)
+
+"""
+a < b: False
+a > b: True
+a <= b: False
+a >= b: True
+a == b: False
+a != b: True
+"""
